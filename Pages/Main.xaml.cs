@@ -116,7 +116,7 @@ namespace ChatStudents_Kurlishuk.Pages
                 usersContext.SaveChanges(); 
                 LoadUsers();
                 time += TimeSpan.FromSeconds(30);   
-            }
+            } 
         }
     }
 }
