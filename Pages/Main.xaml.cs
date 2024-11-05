@@ -113,7 +113,7 @@ namespace ChatStudents_Kurlishuk.Pages
                 Message.Text = "";
                 MainWindow.Instance.LoginUser.Status = true;
                 usersContext.Users.Where(x => x.Id == MainWindow.Instance.LoginUser.Id).First().Status = true;
-                usersContext.SaveChanges();
+                usersContext.SaveChanges(); 
                 LoadUsers();
                 time += TimeSpan.FromSeconds(30);  
             }
