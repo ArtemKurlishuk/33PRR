@@ -115,7 +115,7 @@ namespace ChatStudents_Kurlishuk.Pages
                 usersContext.Users.Where(x => x.Id == MainWindow.Instance.LoginUser.Id).First().Status = true;
                 usersContext.SaveChanges(); 
                 LoadUsers();
-                time += TimeSpan.FromSeconds(30);  
+                time += TimeSpan.FromSeconds(30);   
             }
         }
     }
