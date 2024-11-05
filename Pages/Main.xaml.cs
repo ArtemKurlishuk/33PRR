@@ -101,7 +101,7 @@ namespace ChatStudents_Kurlishuk.Pages
             if (e.Key == Key.Enter)
             {
                 // Создаём сообщение, где мы - отправитель, а получатель - выбранный диалог
-                Messages message = new Messages( 
+                Messages message = new Messages(
                     MainWindow.Instance.LoginUser.Id,
                     SelectedUser.Id,
                     Message.Text
